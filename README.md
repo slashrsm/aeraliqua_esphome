@@ -2,7 +2,7 @@
 
 External component that drives an [Aerauliqa Quantum NEXT](https://www.aerauliqa.com/) heat-recovery ventilator over infrared. It targets **ESPHome 2026.11**. Older releases are out of scope: from 2026.10 a remote listener is counted only when codegen calls `register_listener`.
 
-The frame format lives in [`components/quantum_next/protocol.h`](components/quantum_next/protocol.h). Humidity control and free cooling are unit-side. The remote cannot send them, and this component does not invent commands for them.
+The frame format is [PROTOCOL.md](PROTOCOL.md). The encoder and decoder are [`components/quantum_next/protocol.h`](components/quantum_next/protocol.h). Humidity control and free cooling are unit-side. The remote cannot send them, and this component does not invent commands for them.
 
 ## Install
 
