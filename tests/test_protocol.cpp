@@ -1,7 +1,6 @@
 // Host checks for the Quantum NEXT codec. No ESPHome types.
 //
-//   c++ -std=c++17 -Wall -Wextra -Werror -I components/quantum_next \
-//       tests/test_protocol.cpp -o /tmp/test_protocol && /tmp/test_protocol
+// c++ -std=c++17 -Wall -Wextra -Werror -I components/quantum_next tests/test_protocol.cpp -o /tmp/test_protocol && /tmp/test_protocol
 
 #include <cstdio>
 #include <cstring>
